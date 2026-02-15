@@ -1,25 +1,25 @@
 class Npmgr < Formula
   desc "CLI for managing Nginx Proxy Manager"
   homepage "https://github.com/ramanavelineni/npmgr"
-  version "0.1.0"
+  version "1.0.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ramanavelineni/npmgr/releases/download/v0.1.0/npmgr_0.1.0_darwin_arm64.tar.gz"
-      sha256 "6d41137279ae36152d912c4974b56df0f63e0fb9bb0ad412c59e6f0f59deeab2"
+      url "https://github.com/ramanavelineni/npmgr/releases/download/v1.0.0/npmgr_1.0.0_darwin_arm64.tar.gz"
+      sha256 "4f7abec90df8ee2964e1aa06aee0fac83119a329af2132317f2033e14eb8e89d"
     else
-      url "https://github.com/ramanavelineni/npmgr/releases/download/v0.1.0/npmgr_0.1.0_darwin_amd64.tar.gz"
-      sha256 "54ebde394c1920b0504715d51dfcaec45ce9909f1166e20a0546db9342ca221c"
+      url "https://github.com/ramanavelineni/npmgr/releases/download/v1.0.0/npmgr_1.0.0_darwin_amd64.tar.gz"
+      sha256 "42bc5e0ff84c334bbdbfa6d89838453b088b5c8de4e8f5df7cace810b4afaf70"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ramanavelineni/npmgr/releases/download/v0.1.0/npmgr_0.1.0_linux_arm64.tar.gz"
-      sha256 "c5a6af3b8bd2c3a07248caaa6411eac3a45d37d712f7772887ebc4c34ed22122"
+      url "https://github.com/ramanavelineni/npmgr/releases/download/v1.0.0/npmgr_1.0.0_linux_arm64.tar.gz"
+      sha256 "404fc9178cecc0fda1518bfde406d1571c174dc75b2f62436edec71d4bc3f41d"
     else
-      url "https://github.com/ramanavelineni/npmgr/releases/download/v0.1.0/npmgr_0.1.0_linux_amd64.tar.gz"
-      sha256 "235653a40e4582ea1a9f80bbb308c00fd9301072358dd2a8433ae27f2dc4da99"
+      url "https://github.com/ramanavelineni/npmgr/releases/download/v1.0.0/npmgr_1.0.0_linux_amd64.tar.gz"
+      sha256 "3414c5d83dffc24699a48036f344abc419d2b1163480e2d65fa56abd639bd64b"
     end
   end
 
